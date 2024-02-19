@@ -14,10 +14,6 @@ app.get('*', (req, res) => {
 });
 
 
-
-
-
-
 app.use(express.json());
 
 // Handle POST request to '/spokenwords' endpoint
@@ -38,14 +34,7 @@ app.post('/spokenwords', async (req, res) => {
 
 
 
-// const fuckingFunction = async () => {
-// let spokenWords = 'who are you'
-// let answer = await GPTresponce(spokenWords);
-// answer =  answer.replace(/\n/g, ' ');
-// const response = await  getSpeech(answer);
-// console.log(response)
-// }
-// fuckingFunction();
+
 
 app.listen(3000, () => {
   console.log('listening on port:3000');
