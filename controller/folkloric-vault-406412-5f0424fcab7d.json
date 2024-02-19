@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "folkloric-vault-406412",
+  "private_key_id": "5f0424fcab7d64292f2bfd638cc514132f425faa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCmyaQz/MPOoUyH\nr5RIq+OTY8EeEINp2RZz8V/IKTesXiCBgcZMc6NP84/qswgkfOZaSCwTs2MS0jOu\nFIaHnrougVmj4r2MNH9Dwv5nPLoeViQE3Er+iVjEUfUnmDaUuI+b0KpEENqUt87q\nHGKCwTP90vWqLNY9d/CXC6AeTKhWBcR5Rvgb5RcAkLwlE+oXjEe1q+Fmt9oqg5op\nyFBBGrh3NWHvPHUv7qPLlq4Nrnqy4b/94BVSQyZMIu+2s0w6LsengRJllPDLMdAr\nkIxH+/s1I6D8dM3BVhgg30Kb9J63m7wiPb4pMkuU7kMfKJLwI0TOg9m3h7jaDeRf\nbzAyp8WHAgMBAAECggEABuft8j3J6RvgjknxP1+Eb2gRfnwiqxNFAh79u7CX4kS4\nl7tMKZ8Bs5xl4YPjAeynkxf5KCIdxAMEP5JJcbwF1knmDQNsKsqDPH+m1SUnLNKB\nDPcjQrGdhV97KMe2L7zRSI0yXPZcIim6b0vtsdhsATC1RMsYXk3BkDsUf+dXq3iM\n3aCe+CZaLyzhlA2QgOiBSOWBbc5pIvIEFnCDyaSHTB6VqUbXmtsUKVoffX0ziT8P\nokmG/7lwAdqN/CyoLcCoQp5lLb3VcDrIz4UApdWjDQaXfZPUlb24KiP8yWk5nWIn\nL4uVHy7zdVtNaqt2Oapx50cw2y9WgV3VrDqjrlRSQQKBgQDY7mE3eNx8zISAP2dh\nIC7LDmZYH61YHMB6dI3qfUpSZmLMpz5xUc3hSQCPvdG9HQOgTwGu7KL4OBlWkR8x\nKwHNblVZQ5zAeJK8hYvT/6fnCK6UKq2FOYjxf5jf8TpR2ysvvP0fTsHCmm6bje3C\nGBkJIB4g1xDUfbvL1vr7kbORRwKBgQDE02Sn5Pj74OW1ixhGjH0OgCwMtw11enE9\nUaS09qt1xmO799hyo9R4G/MtkDm5qNjODVGM+/Nm6+/+voftx50n86owNRUeQuM9\nANkahqjpO+T6D7lLmakR3hqqgV02EAykUsCaJd4PXf8nioWsZAX54Sn3cNEL8rZn\n+0sA6FZJwQKBgQCavQ+jnhbI/qnVQWTgpzA5r7/ZRF9F5tx1fQZuKYkGVfpLuVCV\nTKDq/kPkRKaDm1qm0zSELk/hd0K7uTDixaa3fuhqkAwUTu18hFZFlquR5WOCVR8J\nVQ0WFspZk5ziHtAjcU+tMWSNB9O2Kfta5A2XsM1M55wdtsJqmKLXKAtKqQKBgQCJ\ndPyByIYeGgUykQ6GDo0zuE2LH7f1iGpXIZJ+kxpRaRiz6DYwcbvrmdFty6CUyZeH\n54NBi5+EDFgSN2vkophdk20St6+k75+VNedpAAwsvph+DscgRhLuGIfU9f1ryS+a\n/vPlc3aukr2kFrieGUiXJynQ1egYiQvceIH8A0ZnwQKBgQC+eWydv0yiWbjdTPqo\nHCVi7rNZtAILoPKBdkYVsWLowo0kqOeRg75/Rhv/HZh0B5KSjOZrBNWyfE01N4oF\nYPq1BKoc1ODyrr3bXbq5oEK6fkE7hM6twUjmaBtKt81c6kO6GM11BDTTunG6ohlb\nBKoGp3O5TZCSQrgpr6kjDAfSTw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "service@folkloric-vault-406412.iam.gserviceaccount.com",
+  "client_id": "106109639514698069138",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service%40folkloric-vault-406412.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
