@@ -4,7 +4,7 @@ This project involves a Node.js bot that interacts via a web app, interprets voi
 ![Image Alt Text](public/home.png)
 
 
-Getting Started
+## Getting Started
 Follow these steps to run the project locally:
 
 
