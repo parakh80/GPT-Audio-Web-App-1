@@ -1,6 +1,8 @@
 # Gpt-Audio-Web-App
 This project involves a Node.js bot that interacts via a web app, interprets voice input, and responds using GPT. It converts voice to text, processes it with GPT, converts the response to spoken word, and sends it back. The goal is voice-based communication with GPT through a web interface.
 
+![Image Alt Text](public/home.png)
+
 
 Getting Started
 Follow these steps to run the project locally:
