@@ -1,8 +1,14 @@
+import { fileURLToPath } from 'url';
+import path from 'path'
+// Get the directory path of the current module file
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 process.env.GOOGLE_APPLICATION_CREDENTIALS = `${__dirname}/folkloric-vault-406412-5f0424fcab7d.json`;
 
-const { TextToSpeechClient } = require('@google-cloud/text-to-speech');
+import { TextToSpeechClient } from '@google-cloud/text-to-speech';
 
-const convertTextToSpeech = async (text) => {
+export const convertTextToSpeech = async (text) => {
   // Creates a client
   const client = new TextToSpeechClient();
 
@@ -22,7 +28,3 @@ const convertTextToSpeech = async (text) => {
     console.error('Error:', error);
   }
 }
-
-
-
-module.exports = convertTextToSpeech;

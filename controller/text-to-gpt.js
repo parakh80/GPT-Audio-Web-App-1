@@ -1,25 +1,20 @@
-const { Configuration, OpenAIApi } = require('openai');
-require('dotenv').config()
+import {OpenAI} from 'openai';
+import dotenv from "dotenv";
+dotenv.config({path: './.env'});
 
-async function getChatGPTResponse(prompt) {
+export  async function getChatGPTResponse(prompt) {
 
-  const configuration = new Configuration({
-    organization:process.env.ORGANIZATION_KEY,
-    apiKey:process.env.API_KEY
-  })
-  const openai = new OpenAIApi(configuration);
-  const completion = await openai.createChatCompletion({
-    model: "gpt-3.5-turbo",
+  const openai = new OpenAI({
+    apiKey:process.env.API_KEY_OPENAI
+  });
 
-    messages: [
-      { role: "user", content: `${prompt} give me small answer in two three line` }
-    ]
-  })
+    const completion = await openai.chat.completions.create({
+      messages: [{ role: "system", content: `${prompt} give small answer in 2-3 line` }],
+      model: "gpt-3.5-turbo",
+    });
+  
 
-  let answer = completion.data.choices[0].message.content;
-  return answer;
 
+    let answer  = completion.choices[0].message.content;
+    return answer;
 }
-
-
-module.exports = getChatGPTResponse;
